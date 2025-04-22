@@ -48,4 +48,19 @@ print(s1.find('o'))
 stocks=['a','b','c']
 print('-'.join(stocks))
 
+st1='abcd efg hijk'
+print(st1.split(' '))
+
+st2 = 'python'
+f=st2.replace('o','a')
+print(f)
+
+st3='   abcdefghijklmnop     '
+print(st3.strip())
+
+t1 = (55,66,77,'world')
+print(t1)
+t1.count(55)
+print(t1.count(55))
+print(t1.index(66))
 
